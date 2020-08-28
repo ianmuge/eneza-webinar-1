@@ -1,5 +1,13 @@
 ## Setup
-To install dependencies
+To setup the core
 ```
-pipenv install
+make core
+```
+Install Dependencies
+```
+make setup
+```
+Update/Refresh data
+```
+make data-fetch
 ```
